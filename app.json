@@ -2,12 +2,12 @@
   "expo": {
     "name": "ws-tool",
     "slug": "ws-tool",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "wstool",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +20,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.peeba2.wstool"
+      "package": "com.thaiinnovative.wstool"
     },
     "web": {
       "output": "static",
@@ -44,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c1bf1524-da9e-42f1-82a9-0240b450a4a2"
+      }
     }
   }
 }
