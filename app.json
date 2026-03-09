@@ -11,7 +11,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.thaiinnovative.wstool",
-      "appleTeamId": "FJ462BYVZ5"
+      "appleTeamId": "FJ462BYVZ5",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -50,7 +53,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "c1bf1524-da9e-42f1-82a9-0240b450a4a2"
+        "projectId": "094531a8-02ae-4783-8379-d0866bcd822c"
       }
     }
   }

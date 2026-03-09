@@ -228,11 +228,6 @@ export default function MainScreen() {
 
     const payload = row.text ?? "";
     const v = safeJsonValidateMaybe(payload);
-    if (!v.ok) {
-      Alert.alert("Invalid JSON", v.reason ?? "Invalid JSON payload");
-      addLog("error", `invalid json: ${v.reason ?? ""}`.trim());
-      return;
-    }
 
     if (!connected || !ws) {
       addLog("warn", "Not connected. Please connect first.");
