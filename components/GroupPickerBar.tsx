@@ -19,7 +19,6 @@ export default function GroupPickerBar({ groups, selectedId, onSelect, onManage 
           onValueChange={(v) => onSelect(String(v))}
           dropdownIconColor="#cbd5e1"
           style={styles.picker}
-          
           itemStyle={{ height: 56 ,color:"#FFF"}}
         >
           {groups.map((g) => (
@@ -45,7 +44,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#0f1625",
     overflow: "hidden",
   },
-  picker: { color: "white"},
+  picker: { color: "white" },
   manageBtn: {
     paddingHorizontal: 14,
     paddingVertical: 10,
